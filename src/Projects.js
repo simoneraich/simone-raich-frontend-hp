@@ -1,24 +1,11 @@
-import React from "react";
-import { ReactComponent as BackgroundImage } from './background.svg';
+import React from 'react';
+import backgroundImage from './background.png';
 
+import './Projects.css';
 
-import "./Projects.css";
-
-    class MyComponent extends React.Component {
-        render() {
-          return (
-            <div style={{ position: 'relative', width: '500px', height: '500px' }}>
-              <svg style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}>
-                <defs>
-                  <pattern id="background" patternUnits="userSpaceOnUse" width="100%" height="100%">
-                    <rect width="100%" height="100%" fill="white" />
-                    <image href={BackgroundImage} x="0" y="0" width="500" height="500" />
-                  </pattern>
-                </defs>
-                <rect x="0" y="0" width="100%" height="100%" fill="url(#background)" />
-              </svg>
-
-    <div className="ProjectsPage">
+export default function Project() {
+return (
+    <div className="background-image">
       <h3 className="ProjectsHeader">Skills I picked up along the way:</h3>
       <div className="Projects" style={{ display: "flex" }}>
         <div className="ProjectCards" style={{ flex: 1 }}>
@@ -56,9 +43,5 @@ import "./Projects.css";
         </div>
       </div>
     </div>
-    </div>
   );
 }
-}
-
-export default MyComponent;
