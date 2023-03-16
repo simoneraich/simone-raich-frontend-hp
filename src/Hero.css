@@ -1,0 +1,6 @@
+.Hero {
+    display: flex;
+    align-items: center;
+    font-size: calc(55px + 2.5vmin);
+    color: #edf046;
+  }
