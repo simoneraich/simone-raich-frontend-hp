@@ -2,6 +2,7 @@ import './App.css';
 import Hero from './Hero.js';
 import About from './About.js';
 import Projects from './Projects.js';
+import Contactform from './Contactform.js'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
     <Hero />
     <About />
     <Projects />
+    <Contactform />
     </div>
   );
 }
