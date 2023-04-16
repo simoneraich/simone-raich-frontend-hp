@@ -1,26 +1,19 @@
-.About-Container {
-    margin: 5px 30px;
-    padding: 5px 30px;
-    border-radius: 20px;
-    background-color: aliceblue;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  }
-  .About {
-    padding: 30px 40px 30px 15px;
-  }
-  .Skills {
-    margin: 80px 50px;
-    padding: 10px 15px;
-    border-radius: 15px;
-    background: rgba(238, 240, 70, 0.72);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(238, 240, 70, 0.3);
+.aboutSection {
+  height: 600px;
   }
   
-  .Skills-Header {
-    margin: 75px;
-    color: white;
+  .aboutContainer {
+    max-width: 900px;
+    display: flex;
+    justify-content:flex-start;
+  margin: 0px auto;
+  margin-top: 300px;
+    height:fit-content;
+    padding: 5px 30px;
+    border-radius: 20px;
+    background-color: #F7FAFD;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   }
+
+  
+  

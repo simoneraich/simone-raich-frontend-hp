@@ -3,11 +3,10 @@ import "./About.css";
 
 export default function About() {
   return (
-    <div>
-      <div className="About-Container" style={{ display: "flex" }}>
-        <div style={{ flex: 2 }}>
-          <div className="About">
+    <div className="aboutSection">
+      <div className="aboutContainer" style={{ display: "flex" }}>
             <h3>Hi, it's me</h3>
+            <br/>
             <p>
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
@@ -20,16 +19,23 @@ export default function About() {
               Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
               dolor sit amet.
             </p>
-          </div>
-        </div>
-        <div style={{ flex: 1.5 }}>
-          <div className="Skills">
-            <h4>Language</h4>
-            <p>javascript</p>
-            <h4>Skills</h4>
-            <p>React.js</p>
-          </div>
-        </div>
+            <div style={{ flex: 2 }}>
+              <h5>
+                Languages:
+              </h5>
+              <p>
+                Javascript
+              </p>
+            </div>
+            <div style={{ flex: 2 }}>
+              <h5>
+                Skills:
+              </h5>
+              <p>
+                React.js
+              </p>
+            </div>
+        
       </div>
     </div>
   );

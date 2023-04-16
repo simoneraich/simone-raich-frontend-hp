@@ -7,7 +7,6 @@
 .hero-container {
   display: flex;
   justify-content: space-between;
-  display: flex;
   margin: 0px auto;
   width: 1200px;
   height: 768px;
@@ -29,15 +28,21 @@
 
 .circle img {
   max-width: 1800px;
-  padding-top: 260px;
+  padding-top: 290px;
 }
 
-.name {
+h1 {
  align-items: flex-start;
- font-size: 30px;
+ font-size: 45px;
+ padding-bottom: 30px;
 }
 
 .social-icons {
   display: flex;
   justify-content: flex-end;
+}
+
+:hover h1{
+color: #FEC93D;
+transition: ease-in;
 }
