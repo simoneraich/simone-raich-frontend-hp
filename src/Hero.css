@@ -1,7 +1,43 @@
-.Hero {
-    display: flex;
-    align-items: center;
-    padding: 50px;
-    font-size: calc(55px + 2.5vmin);
-    color: #edf046;
-  }
+.hero {
+  background-color: #EFF2F3;
+  padding-top: 50px;
+  
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  margin: 0px auto;
+  width: 1200px;
+  height: 768px;
+  align-items: flex-end;
+  
+}
+
+.circle {
+  height: 33.33%;
+  width: 33.33%;
+  padding-bottom: 33.33%;
+  border-radius: 50%;
+  background-color: #F7FAFD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.circle img {
+  max-width: 1800px;
+  padding-top: 260px;
+}
+
+.name {
+ align-items: flex-start;
+ font-size: 30px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+}

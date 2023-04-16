@@ -1,16 +1,24 @@
 import React from "react";
 
 import "./Hero.css";
+import portrait from "./portrait.png";
 
 export default function Hero() {
   return (
-    <div className="Hero" style={{ display: "flex" }}>
-      <div style={{ flex: 2 }}>
-        <h3>Frontend Developer</h3>
+    <div className="hero">
+  <div class="hero-container" style={{ display: "flex" }}>
+    <div class="name" style={{ flex: 3 }}>
+      <h1>Simone Raich</h1>
       </div>
-      <div className="Hero-img" style={{ flex: 1, padding: "50px" }}>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Mona_Lisa-restored.jpg/1200px-Mona_Lisa-restored.jpg" alt="simone_raich_portrait" width={400}></img>
+    <div class="circle" style={{ flex: 6}}> 
+        <img src={portrait} alt="Portrait" style={{ position: "absolute", zIndex: 1}}/>
+</div>
+    
+      <div class="social-icons" style={{ flex: 2 }}>
+        <img src="#" alt="social icon"/>
       </div>
+    
+  </div>
     </div>
   );
 }
