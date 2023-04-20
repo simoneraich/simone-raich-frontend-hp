@@ -4,7 +4,7 @@ import "./About.css";
 export default function About() {
   return (
     <div className="aboutSection">
-      <div className="aboutContainer" style={{ display: "flex" }}>
+      <div className="aboutContainer">
             <h3>Hi, it's me</h3>
             <br/>
             <p>
@@ -19,6 +19,7 @@ export default function About() {
               Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
               dolor sit amet.
             </p>
+            <div className="skillsSection" style={{ display: "flex" }}>
             <div style={{ flex: 2 }}>
               <h5>
                 Languages:
@@ -35,8 +36,8 @@ export default function About() {
                 React.js
               </p>
             </div>
-        
-      </div>
+            </div>
+            </div>
     </div>
   );
 }
