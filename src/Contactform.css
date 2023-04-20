@@ -1,9 +1,12 @@
+.contactSection {
+    height: 600px;
+    }
+
 .Form {
     display: grid;
     place-items: center;
-    margin: 5px 360px;
-    min-width: 250px;
     padding: 25px 30px;
+    min-width: 250px;
     border-radius: 20px;
     background-color: aliceblue;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);

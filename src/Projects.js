@@ -1,12 +1,10 @@
 import React from 'react';
-import background from './background.png';
 
 import './Projects.css';
 
 export default function Project() {
 return (
-    <div style={{ backgroundImage: `url(${background})`}} className="ProjectBackround" >
-      <h3 className="ProjectsHeader">Skills I picked up along the way:</h3>
+    <div className="projectSection" >
       <div className="Projects" style={{ display: "flex" }}>
         <div className="ProjectCards" style={{ flex: 1 }}>
           <h3 className="ProjectHeading">Weather App</h3>
