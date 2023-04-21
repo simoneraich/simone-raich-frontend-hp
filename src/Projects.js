@@ -3,8 +3,10 @@ import React from 'react';
 import './Projects.css';
 
 export default function Project() {
-return (
-    <div className="projectSection" >
+return ( 
+< div className='ProjectSectionFull'>
+  <h2>Projects</h2>
+    <div className="ProjectSection" >
       <div className="Projects" style={{ display: "flex" }}>
         <div className="ProjectCards" style={{ flex: 1 }}>
           <h3 className="ProjectHeading">Weather App</h3>
@@ -41,5 +43,7 @@ return (
         </div>
       </div>
     </div>
+    
+   </div>
   );
 }

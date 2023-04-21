@@ -1,4 +1,8 @@
 .aboutSection {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 600px;
   }
   
@@ -8,22 +12,5 @@
     padding: 15px 30px;
     background-color: #F7FAFD;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    
-    display: flexbox; 
-    margin: 20px auto;
-    margin-top: 300px;
 
   }
-
-    
-    
-  .aboutContainer h3 {
-display: inline-block;
-}
-
-.aboutContainer p {
-  display: inline;
-}
-
-  
-  
