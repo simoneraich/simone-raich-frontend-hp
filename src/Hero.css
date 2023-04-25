@@ -1,16 +1,17 @@
 .hero {
   background-color: #EFF2F3;
   padding-top: 50px;
-  
+
+
 }
 
 .hero-container {
   display: flex;
   justify-content: space-between;
   margin: 0px auto;
-  width: 1200px;
-  height: 768px;
   align-items: flex-end;
+  height: 600px;
+  width: 1200px;
   
 }
 
